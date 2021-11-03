@@ -1,6 +1,4 @@
-package Backtracking;
-
-import java.util.Arrays;
+package backtracking;
 
 public class KnightsTourSolver {
 

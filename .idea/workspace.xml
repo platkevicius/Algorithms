@@ -20,9 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50ca515a-c815-4df3-967b-959abfa24b36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/codemonk/array/MatrixAndInversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/codemonk/array/RotatingArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/topdown/CoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/topdown/Fibonacii.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/greedy/MovieScheduling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sorting/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/Backtracking/KnightsTourSolver$Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms/Backtracking/KnightsTourSolver$Direction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/Backtracking/KnightsTourSolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms/Backtracking/KnightsTourSolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/Backtracking/MazeSolver$Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms/Backtracking/MazeSolver$Direction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/Backtracking/MazeSolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms/Backtracking/MazeSolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/Backtracking/NQueensOptimized.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms/Backtracking/NQueensOptimized.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/Backtracking/NQueensProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms/Backtracking/NQueensProblem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/Backtracking/SubSetSumSolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms/Backtracking/SubSetSumSolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/Backtracking/SudokuSolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms/Backtracking/SudokuSolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Backtracking/KnightsTourSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/KnightsTourSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Backtracking/MazeSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/MazeSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Backtracking/NQueensOptimized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/NQueensOptimized.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Backtracking/NQueensProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/NQueensProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Backtracking/SubSetSumSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/SubSetSumSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Backtracking/SudokuSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/SudokuSolver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,13 +83,26 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Gruppe11" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Application.MatrixAndInversion">
-    <configuration name="KnightsTourSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Backtracking.KnightsTourSolver" />
+  <component name="RunManager" selected="Application.MovieScheduling">
+    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.topdown.CoinChange" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Backtracking.*" />
+          <option name="PATTERN" value="dp.topdown.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fibonacii" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.topdown.Fibonacii" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.topdown.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NQueensOptimized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Backtracking.NQueensOptimized" />
+    <configuration name="MovieScheduling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.MovieScheduling" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Backtracking.*" />
+          <option name="PATTERN" value="greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,25 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotatingArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codemonk.array.RotatingArray" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.SelectionSort" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codemonk.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubSetSumSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Backtracking.SubSetSumSolver" />
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Backtracking.*" />
+          <option name="PATTERN" value="sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MovieScheduling" />
+        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.CoinChange" />
+        <item itemvalue="Application.Fibonacii" />
         <item itemvalue="Application.MatrixAndInversion" />
-        <item itemvalue="Application.RotatingArray" />
-        <item itemvalue="Application.KnightsTourSolver" />
-        <item itemvalue="Application.SubSetSumSolver" />
-        <item itemvalue="Application.NQueensOptimized" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +182,10 @@
       <workItem from="1635693705235" duration="4526000" />
       <workItem from="1635748250935" duration="1227000" />
       <workItem from="1635752723225" duration="7297000" />
-      <workItem from="1635769563535" duration="8310000" />
+      <workItem from="1635769563535" duration="8753000" />
+      <workItem from="1635887067723" duration="1415000" />
+      <workItem from="1635952655669" duration="1247000" />
+      <workItem from="1635969073252" duration="1889000" />
     </task>
     <servers />
   </component>
@@ -186,46 +205,46 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1635767890910">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1635970682403">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1635767890910" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1635970682403" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1635769320140">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1635769320140" />
-    <state width="1537" height="212" key="GridCell.Tab.0.bottom" timestamp="1635777489849">
+    <state width="1537" height="237" key="GridCell.Tab.0.bottom" timestamp="1635970904740">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="212" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1635777489849" />
-    <state width="1537" height="212" key="GridCell.Tab.0.center" timestamp="1635777489849">
+    <state width="1537" height="237" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1635970904740" />
+    <state width="1537" height="237" key="GridCell.Tab.0.center" timestamp="1635970904739">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="212" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1635777489849" />
-    <state width="1537" height="212" key="GridCell.Tab.0.left" timestamp="1635777489849">
+    <state width="1537" height="237" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1635970904739" />
+    <state width="1537" height="237" key="GridCell.Tab.0.left" timestamp="1635970904739">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="212" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1635777489849" />
-    <state width="1537" height="212" key="GridCell.Tab.0.right" timestamp="1635777489849">
+    <state width="1537" height="237" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1635970904739" />
+    <state width="1537" height="237" key="GridCell.Tab.0.right" timestamp="1635970904739">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="212" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1635777489849" />
-    <state width="1537" height="248" key="GridCell.Tab.1.bottom" timestamp="1635770451894">
+    <state width="1537" height="237" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1635970904739" />
+    <state width="1537" height="291" key="GridCell.Tab.1.bottom" timestamp="1635782047899">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="248" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1635770451894" />
-    <state width="1537" height="248" key="GridCell.Tab.1.center" timestamp="1635770451894">
+    <state width="1537" height="291" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1635782047899" />
+    <state width="1537" height="291" key="GridCell.Tab.1.center" timestamp="1635782047898">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="248" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1635770451894" />
-    <state width="1537" height="248" key="GridCell.Tab.1.left" timestamp="1635770451893">
+    <state width="1537" height="291" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1635782047898" />
+    <state width="1537" height="291" key="GridCell.Tab.1.left" timestamp="1635782047898">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="248" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1635770451893" />
-    <state width="1537" height="248" key="GridCell.Tab.1.right" timestamp="1635770451894">
+    <state width="1537" height="291" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1635782047898" />
+    <state width="1537" height="291" key="GridCell.Tab.1.right" timestamp="1635782047898">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1537" height="248" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1635770451894" />
+    <state width="1537" height="291" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1635782047898" />
     <state width="1537" height="248" key="GridCell.Tab.2.bottom" timestamp="1635770386571">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -246,5 +265,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1635770461846" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1635953166995">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1635953166995" />
   </component>
 </project>

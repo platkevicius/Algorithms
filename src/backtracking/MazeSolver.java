@@ -1,4 +1,4 @@
-package Backtracking;
+package backtracking;
 
 public class MazeSolver {
 

@@ -1,6 +1,5 @@
-package Backtracking;
+package backtracking;
 
-import java.util.Set;
 import java.util.Stack;
 
 public class SubSetSumSolver {
