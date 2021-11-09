@@ -11,7 +11,7 @@ public class RemovingDigits {
         System.out.println(removingDigits.solve(27, dp));
     }
 
-    public int solve(int n, int dp[]) {
+    public int solve(int n, int[] dp) {
         if (n == 0) return 0;
         if (dp[n] != -1) return dp[n];
 
