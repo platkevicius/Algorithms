@@ -20,9 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50ca515a-c815-4df3-967b-959abfa24b36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dp/topdown/ArrayDescription.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dp/topdown/CountingTowers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/bottomup/CoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/bottomup/CoinCombination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/bottomup/CoinCombinationSorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/bottomup/Fibonacii.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dp/bottomup/Knapsack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/dp/topdown/CoinChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms/dp/topdown/CoinChange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/dp/topdown/CountingTowers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms/dp/topdown/CountingTowers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dp/topdown/CoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dp/topdown/CoinChange.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +48,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -62,14 +72,28 @@
   <component name="PropertiesComponent">
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Gruppe11" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Application.CountingTowers">
-    <configuration name="ArrayDescription" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.topdown.ArrayDescription" />
+  <component name="RunManager" selected="Application.CoinCombination">
+    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.bottomup.CoinChange" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dp.bottomup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoinCombination (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.topdown.CoinCombination" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -81,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountingTowers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.topdown.CountingTowers" />
+    <configuration name="CoinCombination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.bottomup.CoinCombination" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.topdown.*" />
+          <option name="PATTERN" value="dp.bottomup.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GridPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.topdown.GridPathSum" />
+    <configuration name="CoinCombinationSorted (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.bottomup.CoinCombinationSorted" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.topdown.*" />
+          <option name="PATTERN" value="dp.bottomup.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,8 +131,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GridPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.topdown.GridPaths" />
+    <configuration name="CoinCombinationSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.topdown.CoinCombinationSorted" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -121,11 +145,11 @@
       </method>
     </configuration>
     <configuration name="Knapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.topdown.Knapsack" />
+      <option name="MAIN_CLASS_NAME" value="dp.bottomup.Knapsack" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.topdown.*" />
+          <option name="PATTERN" value="dp.bottomup.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,25 +157,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CountingTowers" />
-        <item itemvalue="Application.ArrayDescription" />
-        <item itemvalue="Application.GridPathSum" />
-        <item itemvalue="Application.GridPaths" />
+        <item itemvalue="Application.CoinCombination" />
+        <item itemvalue="Application.CoinCombination (1)" />
+        <item itemvalue="Application.CoinCombinationSorted (1)" />
+        <item itemvalue="Application.CoinCombinationSorted" />
         <item itemvalue="Application.Knapsack" />
       </list>
     </recent_temporary>
@@ -181,7 +203,14 @@
       <workItem from="1636406456842" duration="149000" />
       <workItem from="1636484929536" duration="170000" />
       <workItem from="1636487262244" duration="3754000" />
-      <workItem from="1636567878791" duration="5812000" />
+      <workItem from="1636567878791" duration="6449000" />
+      <workItem from="1636635914047" duration="24000" />
+      <workItem from="1638884799294" duration="301000" />
+      <workItem from="1638961779744" duration="82000" />
+      <workItem from="1639488553996" duration="1417000" />
+      <workItem from="1639593827510" duration="10000" />
+      <workItem from="1639944455620" duration="717000" />
+      <workItem from="1639986052997" duration="3938000" />
     </task>
     <servers />
   </component>
@@ -209,38 +238,42 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1636485024669" />
-    <state width="768" height="2" key="GridCell.Tab.0.bottom" timestamp="1636575581024">
+    <state width="1921" height="301" key="GridCell.Tab.0.bottom" timestamp="1639989332554">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1537" height="332" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1636576284651" />
+    <state width="1921" height="301" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1639989332554" />
+    <state width="1921" height="301" key="GridCell.Tab.0.center" timestamp="1639989332553">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1537" height="332" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1636576284650" />
+    <state width="1921" height="301" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1639989332553" />
+    <state width="1921" height="301" key="GridCell.Tab.0.left" timestamp="1639989332552">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1537" height="332" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1636576284650" />
+    <state width="1921" height="301" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1639989332552" />
+    <state width="1921" height="301" key="GridCell.Tab.0.right" timestamp="1639989332553">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1537" height="332" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1636576284650" />
+    <state width="1921" height="301" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1639989332553" />
+    <state width="1537" height="332" key="GridCell.Tab.1.bottom" timestamp="1636576284652">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="768" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1636575581024" />
-    <state width="768" height="2" key="GridCell.Tab.0.center" timestamp="1636575581024">
+    <state width="1537" height="332" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1636576284652" />
+    <state width="1537" height="332" key="GridCell.Tab.1.center" timestamp="1636576284651">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="768" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1636575581024" />
-    <state width="768" height="2" key="GridCell.Tab.0.left" timestamp="1636575581024">
+    <state width="1537" height="332" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1636576284651" />
+    <state width="1537" height="332" key="GridCell.Tab.1.left" timestamp="1636576284651">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="768" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1636575581024" />
-    <state width="768" height="2" key="GridCell.Tab.0.right" timestamp="1636575581024">
+    <state width="1537" height="332" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1636576284651" />
+    <state width="1537" height="332" key="GridCell.Tab.1.right" timestamp="1636576284651">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="768" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1636575581024" />
-    <state width="1537" height="332" key="GridCell.Tab.1.bottom" timestamp="1636575017354">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1537" height="332" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1636575017354" />
-    <state width="1537" height="332" key="GridCell.Tab.1.center" timestamp="1636575017353">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1537" height="332" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1636575017353" />
-    <state width="1537" height="332" key="GridCell.Tab.1.left" timestamp="1636575017353">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1537" height="332" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1636575017353" />
-    <state width="1537" height="332" key="GridCell.Tab.1.right" timestamp="1636575017354">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1537" height="332" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1636575017354" />
+    <state width="1537" height="332" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1636576284651" />
     <state width="1537" height="248" key="GridCell.Tab.2.bottom" timestamp="1635770386571">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

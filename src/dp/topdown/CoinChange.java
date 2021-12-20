@@ -6,7 +6,7 @@ public class CoinChange {
 
     public static void main(String[] args) {
         CoinChange coinChange = new CoinChange();
-        System.out.println(coinChange.coinChange(new int[]{20, 30, 15, 10, 1, 2, 3, 4, 5},30));
+        System.out.println(coinChange.coinChange(new int[]{20, 15, 10, 1, 2, 3, 4, 5},30));
     }
 
     public int coinChange(int[] coins, int amount) {
