@@ -20,7 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50ca515a-c815-4df3-967b-959abfa24b36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dp/bottomup/ArrayDescription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/traversal/BreadthFirstSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/traversal/DepthFirstSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/unweightedGraph/CustomGraphs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/unweightedGraph/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/unweightedGraph/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/weightedGraph/CustomGraphs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/weightedGraph/Edge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/weightedGraph/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/weightedGraph/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,13 +78,26 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Gruppe11" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Application.GridPathSum (1)">
-    <configuration name="DiceCombination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.bottomup.DiceCombination" />
+  <component name="RunManager" selected="Application.BreadthFirstSearch">
+    <configuration name="BreadthFirstSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.traversal.BreadthFirstSearch" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.bottomup.*" />
+          <option name="PATTERN" value="graph.traversal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DepthFirstSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.traversal.DepthFirstSearch" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graph.traversal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,39 +144,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GridPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.topdown.GridPaths" />
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dp.topdown.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BreadthFirstSearch" />
+        <item itemvalue="Application.DepthFirstSearch" />
         <item itemvalue="Application.GridPathSum (1)" />
         <item itemvalue="Application.GridPathSum" />
         <item itemvalue="Application.GridPaths (1)" />
-        <item itemvalue="Application.GridPaths" />
-        <item itemvalue="Application.DiceCombination" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +198,8 @@
       <workItem from="1639593827510" duration="10000" />
       <workItem from="1639944455620" duration="717000" />
       <workItem from="1639986052997" duration="4790000" />
-      <workItem from="1640175713959" duration="7861000" />
+      <workItem from="1640175713959" duration="9073000" />
+      <workItem from="1640261914177" duration="3621000" />
     </task>
     <servers />
   </component>
@@ -212,34 +219,39 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1635970682403">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="718" y="162" key="#com.intellij.ide.util.MemberChooser" timestamp="1640265518860">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1635970682403" />
+    <state x="718" y="162" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1640265518860" />
+    <state x="697" y="264" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1640264392664">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="697" y="264" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1640264392664" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1636485024669">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1636485024669" />
-    <state width="1921" height="301" key="GridCell.Tab.0.bottom" timestamp="1640178656613">
+    <state width="1921" height="301" key="GridCell.Tab.0.bottom" timestamp="1640265703944">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1537" height="332" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1636576284651" />
-    <state width="1921" height="301" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1640178656613" />
-    <state width="1921" height="301" key="GridCell.Tab.0.center" timestamp="1640178656613">
+    <state width="1921" height="301" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1640265703944" />
+    <state width="1921" height="301" key="GridCell.Tab.0.center" timestamp="1640265703944">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1537" height="332" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1636576284650" />
-    <state width="1921" height="301" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1640178656613" />
-    <state width="1921" height="301" key="GridCell.Tab.0.left" timestamp="1640178656613">
+    <state width="1921" height="301" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1640265703944" />
+    <state width="1921" height="301" key="GridCell.Tab.0.left" timestamp="1640265703944">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1537" height="332" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1636576284650" />
-    <state width="1921" height="301" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1640178656613" />
-    <state width="1921" height="301" key="GridCell.Tab.0.right" timestamp="1640178656613">
+    <state width="1921" height="301" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1640265703944" />
+    <state width="1921" height="301" key="GridCell.Tab.0.right" timestamp="1640265703944">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1537" height="332" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1636576284650" />
-    <state width="1921" height="301" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1640178656613" />
+    <state width="1921" height="301" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1640265703944" />
     <state width="1537" height="332" key="GridCell.Tab.1.bottom" timestamp="1636576284652">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
