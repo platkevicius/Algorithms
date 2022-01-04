@@ -4,16 +4,22 @@ import java.util.Objects;
 
 public class Edge {
 
+    private final Node from;
     private final Node to;
     private final int weight;
 
-    public Edge(Node to, int weight) {
+    public Edge(Node from, Node to, int weight) {
+        this.from = from;
         this.to = to;
         this.weight = weight;
     }
 
     public Node getTo() {
         return to;
+    }
+
+    public Node getFrom() {
+        return from;
     }
 
     public int getWeight() {
