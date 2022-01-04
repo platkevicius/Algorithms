@@ -36,7 +36,8 @@ public class Kruskal {
 
         UnionFind unionFind = new UnionFind(graph.getNodes().size());
 
-        for (Edge edge : edges) {
+        while (!edges.isEmpty()) {
+            Edge edge = edges.poll();
             Node from = edge.getFrom();
             Node to = edge.getTo();
 
