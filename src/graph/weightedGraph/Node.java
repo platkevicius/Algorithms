@@ -66,6 +66,6 @@ public class Node {
 
     @Override
     public int hashCode() {
-        return Objects.hash(label, visited, edges);
+        return Objects.hash(label, visited, edges.size());
     }
 }
