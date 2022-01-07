@@ -20,9 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50ca515a-c815-4df3-967b-959abfa24b36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/graph/mst/EagerPrim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/ordering/TopologicalSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/shortestpath/BellmanFord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/shortestpath/FloydWarshall.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/weightedGraph/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/weightedGraph/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/graph/mst/EagerPrim.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms/graph/mst/EagerPrim.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/mst/EagerPrim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/mst/EagerPrim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/unweightedGraph/CustomGraphs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/unweightedGraph/CustomGraphs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,25 +72,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Gruppe11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Graphtheory" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Application.EagerPrim">
-    <configuration name="BreadthFirstSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.traversal.BreadthFirstSearch" />
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="graph.traversal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.shortestpath.Dijkstra" />
+  <component name="RunManager" selected="Application.TopologicalSort">
+    <configuration name="BellmanFord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.shortestpath.BellmanFord" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -111,6 +102,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FloydWarshall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.shortestpath.FloydWarshall" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graph.shortestpath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Kruskal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graph.mst.Kruskal" />
       <module name="Algorithms" />
@@ -124,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LazyPrim" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.mst.LazyPrim" />
+    <configuration name="TopologicalSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.ordering.TopologicalSort" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graph.mst.*" />
+          <option name="PATTERN" value="graph.ordering.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TopologicalSort" />
+        <item itemvalue="Application.FloydWarshall" />
+        <item itemvalue="Application.BellmanFord" />
         <item itemvalue="Application.EagerPrim" />
         <item itemvalue="Application.Kruskal" />
-        <item itemvalue="Application.LazyPrim" />
-        <item itemvalue="Application.Dijkstra" />
-        <item itemvalue="Application.BreadthFirstSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +205,10 @@
       <workItem from="1641212960734" duration="2956000" />
       <workItem from="1641287252139" duration="2259000" />
       <workItem from="1641324464653" duration="3220000" />
-      <workItem from="1641375873722" duration="2013000" />
+      <workItem from="1641375873722" duration="4817000" />
+      <workItem from="1641464044730" duration="12000" />
+      <workItem from="1641491361664" duration="3069000" />
+      <workItem from="1641540607626" duration="6351000" />
     </task>
     <servers />
   </component>
@@ -221,59 +228,60 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="718" y="162" key="#com.intellij.ide.util.MemberChooser" timestamp="1641376707196">
+    <state x="718" y="162" key="#com.intellij.ide.util.MemberChooser" timestamp="1641561497238">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1635970682403" />
-    <state x="718" y="162" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1641376707196" />
+    <state x="718" y="162" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1641561497238" />
     <state x="697" y="264" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1640264392664">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="697" y="264" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1640264392664" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1636485024669">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="686" y="211" key="FileChooserDialogImpl" timestamp="1641558464642">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1636485024669" />
-    <state width="1921" height="436" key="GridCell.Tab.0.bottom" timestamp="1641378046372">
+    <state x="686" y="211" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1641558464642" />
+    <state width="1921" height="296" key="GridCell.Tab.0.bottom" timestamp="1641563103416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1537" height="332" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1636576284651" />
-    <state width="1921" height="436" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1641378046372" />
-    <state width="1921" height="436" key="GridCell.Tab.0.center" timestamp="1641378046372">
+    <state width="1921" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1641563103416" />
+    <state width="1921" height="296" key="GridCell.Tab.0.center" timestamp="1641563103415">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1537" height="332" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1636576284650" />
-    <state width="1921" height="436" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1641378046372" />
-    <state width="1921" height="436" key="GridCell.Tab.0.left" timestamp="1641378046371">
+    <state width="1921" height="296" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1641563103415" />
+    <state width="1921" height="296" key="GridCell.Tab.0.left" timestamp="1641563103415">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1537" height="332" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1636576284650" />
-    <state width="1921" height="436" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1641378046371" />
-    <state width="1921" height="436" key="GridCell.Tab.0.right" timestamp="1641378046372">
+    <state width="1921" height="296" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1641563103415" />
+    <state width="1921" height="296" key="GridCell.Tab.0.right" timestamp="1641563103416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1537" height="332" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1636576284650" />
-    <state width="1921" height="436" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1641378046372" />
-    <state width="1921" height="436" key="GridCell.Tab.1.bottom" timestamp="1641377840742">
+    <state width="1921" height="296" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1641563103416" />
+    <state width="1921" height="436" key="GridCell.Tab.1.bottom" timestamp="1641415956049">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1537" height="332" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1636576284652" />
-    <state width="1921" height="436" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1641377840742" />
-    <state width="1921" height="436" key="GridCell.Tab.1.center" timestamp="1641377840742">
+    <state width="1921" height="436" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1641415956049" />
+    <state width="1921" height="436" key="GridCell.Tab.1.center" timestamp="1641415956049">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1537" height="332" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1636576284651" />
-    <state width="1921" height="436" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1641377840742" />
-    <state width="1921" height="436" key="GridCell.Tab.1.left" timestamp="1641377840742">
+    <state width="1921" height="436" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1641415956049" />
+    <state width="1921" height="436" key="GridCell.Tab.1.left" timestamp="1641415956049">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1537" height="332" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1636576284651" />
-    <state width="1921" height="436" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1641377840742" />
-    <state width="1921" height="436" key="GridCell.Tab.1.right" timestamp="1641377840742">
+    <state width="1921" height="436" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1641415956049" />
+    <state width="1921" height="436" key="GridCell.Tab.1.right" timestamp="1641415956049">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1537" height="332" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1636576284651" />
-    <state width="1921" height="436" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1641377840742" />
+    <state width="1921" height="436" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1641415956049" />
     <state width="1537" height="248" key="GridCell.Tab.2.bottom" timestamp="1635770386571">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -298,27 +306,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1636403195893" />
-    <state x="539" y="183" width="840" height="856" key="search.everywhere.popup" timestamp="1641377356205">
+    <state x="539" y="183" width="840" height="856" key="search.everywhere.popup" timestamp="1641491883614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1636490986270" />
-    <state x="539" y="183" width="840" height="856" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1641377356205" />
+    <state x="539" y="183" width="840" height="856" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1641491883614" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/graph/mst/EagerPrim.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/graph/mst/EagerPrim.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="edges" />
