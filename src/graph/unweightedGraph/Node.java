@@ -7,6 +7,7 @@ import java.util.Objects;
 public class Node {
 
     private final int label;
+    private int id;
     private boolean visited;
     private final List<Node> nodes = new ArrayList<>();
 
@@ -32,6 +33,14 @@ public class Node {
 
     public List<Node> getNodes() {
         return nodes;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     @Override
