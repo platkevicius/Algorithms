@@ -20,11 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50ca515a-c815-4df3-967b-959abfa24b36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/graph/scc/Tarjan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/shortestpath/DAG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/eulerianPath/EulerPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/unweightedGraph/CustomGraphs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/unweightedGraph/CustomGraphs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph/unweightedGraph/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/unweightedGraph/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms/graph/scc/Tarjan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms/graph/scc/Tarjan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/scc/Tarjan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/scc/Tarjan.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,13 +72,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Graphtheory" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Application.Tarjan">
-    <configuration name="BellmanFord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.shortestpath.BellmanFord" />
+  <component name="RunManager" selected="Application.EulerPath">
+    <configuration name="EulerPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.eulerianPath.EulerPath" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graph.shortestpath.*" />
+          <option name="PATTERN" value="graph.eulerianPath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,24 +138,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EulerPath" />
         <item itemvalue="Application.Tarjan" />
         <item itemvalue="Application.KhansTopologicalSort" />
         <item itemvalue="Application.TopologicalSort" />
         <item itemvalue="Application.FloydWarshall" />
-        <item itemvalue="Application.BellmanFord" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +206,8 @@
       <workItem from="1641464044730" duration="12000" />
       <workItem from="1641491361664" duration="3069000" />
       <workItem from="1641540607626" duration="8439000" />
-      <workItem from="1641664744758" duration="3594000" />
+      <workItem from="1641664744758" duration="4212000" />
+      <workItem from="1641717811299" duration="4557000" />
     </task>
     <servers />
   </component>
@@ -225,11 +227,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="718" y="162" key="#com.intellij.ide.util.MemberChooser" timestamp="1641665626523">
+    <state x="718" y="162" key="#com.intellij.ide.util.MemberChooser" timestamp="1641724297889">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1635970682403" />
-    <state x="718" y="162" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1641665626523" />
+    <state x="718" y="162" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1641724297889" />
     <state x="697" y="264" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1640264392664">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -239,46 +241,46 @@
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1636485024669" />
     <state x="686" y="211" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1641558464642" />
-    <state width="1921" height="296" key="GridCell.Tab.0.bottom" timestamp="1641668071351">
+    <state width="1921" height="436" key="GridCell.Tab.0.bottom" timestamp="1641668999158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1537" height="332" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1636576284651" />
-    <state width="1921" height="296" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1641668071351" />
-    <state width="1921" height="296" key="GridCell.Tab.0.center" timestamp="1641668071351">
+    <state width="1921" height="436" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1641668999158" />
+    <state width="1921" height="436" key="GridCell.Tab.0.center" timestamp="1641668999155">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1537" height="332" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1636576284650" />
-    <state width="1921" height="296" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1641668071351" />
-    <state width="1921" height="296" key="GridCell.Tab.0.left" timestamp="1641668071348">
+    <state width="1921" height="436" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1641668999155" />
+    <state width="1921" height="436" key="GridCell.Tab.0.left" timestamp="1641668999153">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1537" height="332" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1636576284650" />
-    <state width="1921" height="296" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1641668071348" />
-    <state width="1921" height="296" key="GridCell.Tab.0.right" timestamp="1641668071351">
+    <state width="1921" height="436" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1641668999153" />
+    <state width="1921" height="436" key="GridCell.Tab.0.right" timestamp="1641668999157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1537" height="332" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1636576284650" />
-    <state width="1921" height="296" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1641668071351" />
-    <state width="1921" height="436" key="GridCell.Tab.1.bottom" timestamp="1641667300428">
+    <state width="1921" height="436" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1641668999157" />
+    <state width="1921" height="436" key="GridCell.Tab.1.bottom" timestamp="1641668999163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1537" height="332" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1636576284652" />
-    <state width="1921" height="436" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1641667300428" />
-    <state width="1921" height="436" key="GridCell.Tab.1.center" timestamp="1641667300428">
+    <state width="1921" height="436" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1641668999163" />
+    <state width="1921" height="436" key="GridCell.Tab.1.center" timestamp="1641668999161">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1537" height="332" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1636576284651" />
-    <state width="1921" height="436" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1641667300428" />
-    <state width="1921" height="436" key="GridCell.Tab.1.left" timestamp="1641667300428">
+    <state width="1921" height="436" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1641668999161" />
+    <state width="1921" height="436" key="GridCell.Tab.1.left" timestamp="1641668999160">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1537" height="332" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1636576284651" />
-    <state width="1921" height="436" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1641667300428" />
-    <state width="1921" height="436" key="GridCell.Tab.1.right" timestamp="1641667300428">
+    <state width="1921" height="436" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1641668999160" />
+    <state width="1921" height="436" key="GridCell.Tab.1.right" timestamp="1641668999162">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1537" height="332" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1636576284651" />
-    <state width="1921" height="436" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1641667300428" />
+    <state width="1921" height="436" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1641668999162" />
     <state width="1537" height="248" key="GridCell.Tab.2.bottom" timestamp="1635770386571">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -314,15 +316,6 @@
     <state x="539" y="183" width="840" height="856" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1641491883614" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/graph/scc/Tarjan.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="edges" />

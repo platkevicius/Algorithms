@@ -21,8 +21,6 @@ public class Tarjan {
     }
 
     public int findSccAmount() {
-        int sccAmount = 0;
-
         for (Node node : graph.getNodes()) {
             if (!visited.contains(node)) {
                dfs(node);
